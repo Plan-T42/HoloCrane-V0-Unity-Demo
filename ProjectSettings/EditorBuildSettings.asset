@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/testCraneControlVuforia.unity
+    guid: aa382494c6e7bee4f973da2e3a1f9f31
+  - enabled: 0
+    path: Assets/Scenes/testVuforia.unity
+    guid: 0ff9917265fdb2844983631fd5c1a4be
+  - enabled: 0
+    path: Assets/Scenes/testWorldAnchor.unity
+    guid: 9e5d22750c0c16042bf6ba85ab66a59c
+  - enabled: 0
+    path: Assets/Scenes/CraneControlVuforiaAIIC.unity
+    guid: 0f7c42b407eb9db40ae2affa226cff3a
+  - enabled: 0
+    path: Assets/Scenes/testControl.unity
+    guid: 1eed93e478e56cb4a8092acf00e247d6
+  - enabled: 0
+    path: Assets/Scenes/ConnectionCraneControlVuforiaAIIC.unity
+    guid: 7ae4c4e49d6b1f04fb308ff904c978a2
+  - enabled: 0
+    path: Assets/Scenes/MovableConnectionCraneControlVuforiaAIIC.unity
+    guid: 0a2be03688530a04c94d31dd78491284
+  - enabled: 0
+    path: Assets/Scenes/FinalSceneExperiment.unity
+    guid: ac6c54b7d2622774e86f76559ea2ba8d
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/FinalSceneExperimentCanvas.unity
+    guid: 69bed6b13842e284bba1694a98d64e25
+  - enabled: 0
+    path: Assets/Scenes/FinalSceneMultiLC.unity
+    guid: 8f9cca08976c3c0408431d458d24cb61
+  m_configObjects: {}
