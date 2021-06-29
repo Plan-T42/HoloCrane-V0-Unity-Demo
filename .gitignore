@@ -8,8 +8,9 @@
 /[Bb]uild/
 /[Bb]uilds/
 /[Ll]ogs/
-/[Aa]pp/
+/[Aa]pp/*
 /[Mm]emoryCaptures/
+
 
 # Never ignore Asset meta data
 !/[Aa]ssets/**/*.meta
@@ -66,8 +67,8 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
-/Assets/AssetStoreTools/
-/Assets/HoloToolkit-Examples/
+/Assets/AssetStoreTools*
+/Assets/HoloToolkit-Examples*
 
 
 # ===================================== #

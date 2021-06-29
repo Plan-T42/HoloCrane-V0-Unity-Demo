@@ -1229,6 +1229,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d85b7f1b67b1c674691b9aca2ca3d14b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  selected: 0
 --- !u!23 &458355254
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1362,6 +1363,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d85b7f1b67b1c674691b9aca2ca3d14b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  selected: 0
 --- !u!23 &523067814
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2024,6 +2026,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fixedDeltaTime: 0.1
   timeout: 1000
+  watchdogQueryLog: watchdogQuery
+  monitorQueryLog: monitorQuery
+  controlQueryLog: controlQuery
   startWatchdog: 1
   accessCode: 19952011
   setWatchdog: 1
@@ -2048,13 +2053,9 @@ MonoBehaviour:
   differenceHoist: 0
   differenceTrolley: 0
   differenceBridge: 0
-  startTargetPositioning: 0
-  selectionInUse: 0
-  checkTargetPositioningUpdate: 1
-  target: 0
-  atTarget: 0
-  positioningToTarget: 0
-  targetNbrSelected: 0
+  controlHoist: stop
+  controlTrolley: stop
+  controlBridge: stop
 --- !u!114 &822708680
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2540,6 +2541,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d85b7f1b67b1c674691b9aca2ca3d14b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  selected: 0
 --- !u!23 &1090117439
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3270,6 +3272,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d85b7f1b67b1c674691b9aca2ca3d14b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  selected: 0
 --- !u!23 &1341133760
 MeshRenderer:
   m_ObjectHideFlags: 0
